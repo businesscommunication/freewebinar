@@ -1,0 +1,55 @@
+Styling HTML Elements.
+
+/* Below line is used for online Google font */
+
+h2{
+text-align: center;
+font-size: 24px;
+}
+hr{
+margin-bottom: 30px;
+}
+
+div.main{
+width: 320px;
+float:left;
+padding: 10px 55px 40px;
+background-color: rgba(187, 255, 184, 0.65);
+
+box-shadow: 0 0 10px;
+border-radius: 2px;
+font-size: 13px;
+}
+input[type=text],[type=password] {
+width: 97.7%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 2px;
+margin-top: 2px;
+box-shadow: 0 0 5px #FF7D27;
+border: 2px solid #FF7D27;
+color: black;
+font-size: 16px;
+background : transparent;
+}
+label{
+color: white;
+font-size: 14px;
+font-weight: bold;
+}
+#register {
+font-size: 20px;
+margin-top: 15px;
+background: linear-gradient(transparent 5%, #FF7D27 100%);
+border: 1px solid transparent;
+padding: 7px 35px;
+color: white;
+text-shadow: 0px 1px 0px #13506D;
+font-weight: bold;
+border-radius: 0px;
+cursor: pointer;
+width: 100%;
+}
+#register:hover{
+background: linear-gradient(#FF7D27 5%, #FF7D27 100%);
+}
